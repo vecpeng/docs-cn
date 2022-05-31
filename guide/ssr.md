@@ -22,8 +22,8 @@ SSR 特别指支持在 Node.js 中运行相同应用程序的前端框架（例�
 
 Vite 为服务端渲染（SSR）提供了内建支持。这里的 Vite 范例包含了 Vue 3 和 React 的 SSR 设置示例，可以作为本指南的参考：
 
-- [Vue 3](https://github.com/vitejs/vite/tree/main/packages/playground/ssr-vue)
-- [React](https://github.com/vitejs/vite/tree/main/packages/playground/ssr-react)
+- [Vue 3](https://github.com/vitejs/vite/tree/main/playground/ssr-vue)
+- [React](https://github.com/vitejs/vite/tree/main/playground/ssr-react)
 
 ## 源码结构 {#source-structure}
 
@@ -177,7 +177,7 @@ app.use('*', async (req, res, next) => {
 
 - 将 `vite` 开发服务器的创建和所有使用都移到 dev-only 条件分支后面，然后添加静态文件服务中间件来服务 `dist/client` 中的文件。
 
-可以在此参考 [Vue](https://github.com/vitejs/vite/tree/main/packages/playground/ssr-vue) 和 [React](https://github.com/vitejs/vite/tree/main/packages/playground/ssr-react) 的设置范例。
+可以在此参考 [Vue](https://github.com/vitejs/vite/tree/main/playground/ssr-vue) 和 [React](https://github.com/vitejs/vite/tree/main/playground/ssr-react) 的设置范例。
 
 ## 生成预加载指令 {#generating-preload-directives}
 
